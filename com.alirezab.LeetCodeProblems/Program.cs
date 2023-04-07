@@ -5,5 +5,9 @@ BinarySearch binarySearch = new();
 
 FirstBadVersion firstBadVersion = new FirstBadVersion();
 
-Console.WriteLine(firstBadVersion.FindFirstBadVersion(3));
+SearchInsertPosition searchInsertPosition = new SearchInsertPosition();
+
+
+Console.WriteLine(searchInsertPosition.SearchInsert(arr, 98));
+//Console.WriteLine(firstBadVersion.FindFirstBadVersion(3));
 //Console.WriteLine(binarySearch.Search(arr, 101));
